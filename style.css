@@ -1,0 +1,81 @@
+/*
+Author : Ravy Thok                                      
+    Email : ravy_thok@student.uml.edu                             
+    School : UMass Lowell                                        
+    Course : COMP 4610 - GUI Programming I                       
+    Assignment :  No.9: Implementing a Bit of Scrabble with Drag-and-Drop    
+    Filename: style.cs
+*/
+
+h2{
+  text-align: center;
+  font-family: serif;
+  color: black ;
+}
+
+body{
+  margin-left: 50px;
+  max-width: 850px;
+  min-width: 600px;
+  background-color: lightsalmon;
+}
+
+#container{
+}
+
+#Menu{
+   background-color: cadetblue;
+   border: 2px black solid;
+   border-bottom: none;
+   margin: auto;
+   width: 1000px;
+   height: 100px;
+   padding: 10px 10px 10px 30px;
+}
+
+#Board{
+    background-color: cadetblue;
+    border: 2px black solid;
+    border-top: none;
+    border-bottom: none;
+    margin: auto;
+    padding: 10px 10px 10px 30px;
+    display: block;
+    width: 1000px;
+    height: 175px;
+}
+
+.boardspace{
+    display: inline-block ;
+    width:102px;
+    height:111px;
+}
+
+#Letters{
+    background-color: cadetblue;
+    border: 2px black solid;
+    border-top: none;
+    margin: auto;
+    padding: 10px 10px 10px 30px;
+    display: block;
+    width: 1000px;
+    height: 200px;
+}
+
+#lettertbl{
+    background-image: url(letter-holder.png);
+    margin-left: 70px;
+    width: 750px;
+    height: 150px;
+}
+
+.letterTile{
+    display: inline-block ;
+    width:82.5px;
+    height:90px;
+    margin-bottom: 50px;
+}
+
+.draggable, .droppable {
+    display: inline-block ;
+}
